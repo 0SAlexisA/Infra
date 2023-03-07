@@ -57,18 +57,79 @@ do{
 	}break;
 	
 	
-    case 2:;{
-    printf("Float es un tipo de dato numerico que abarca unicamente conjunto de numeros flotantes \n");
-    printf("Por ejemplo: 1.2, 2.5, 3.9, 4.8, 5.0 \n");
-}
-	break;
+    case 2:;{	
+
+		printf("\n", opcion);
+		{
+	do
+	{
+		printf(" Ingrese Que Desea Obtener:\n1)and\n");
+		scanf("%i",&selec);
+		fflush(stdin);
+
+	switch(selec){
+		
+		case 1:
+
+	if(aUnam == false && carrera == false && grupo == false){
+		}else{
+			printf("Wey ni te topo");}
 	
-    case 3:;{
-    printf("Un numero complejo es aquel con parte real y uno con parte imaginaria \n");
-    printf("Por ejemplo: 1i \n");
-}
-	break;
+		if(aUnam == true && carrera == false && grupo == false){
+			}else{
+				printf("Pos eres de la UNAM pero quien sabe de donde");}
 	
+			if(aUnam == true && carrera == true && grupo == false){
+				}else{
+					printf("Eres alumno de la UNAM, en la carrera 308 y per no perteneces al 2296");}
+	
+				if(aUnam == true && carrera == true && grupo == true){
+					}else{
+						printf("Eres un informatico y no tienes vida");}
+						
+					}
+
+	}while  (selec!=1);
+	return 0;
+	}
+	}break;
+	
+    case 3:;{	
+
+		printf("\n", opcion);
+		{
+	do
+	{
+		printf(" Ingrese Que Desea Obtener:\n1)and\n");
+		scanf("%i",&selec);
+		fflush(stdin);
+
+	switch(selec){
+		
+		case 1:
+
+	if(aUnam == false && carrera == false && grupo == false){
+		}else{
+			printf("Wey ni te topo");}
+	
+		if(aUnam == true && carrera == false && grupo == false){
+			}else{
+				printf("Pos eres de la UNAM pero quien sabe de donde");}
+	
+			if(aUnam == true && carrera == true && grupo == false){
+				}else{
+					printf("Eres alumno de la UNAM, en la carrera 308 y per no perteneces al 2296");}
+	
+				if(aUnam == true && carrera == true && grupo == true){
+					}else{
+						printf("Eres un informatico y no tienes vida");}
+						
+					}
+
+	}while  (selec!=1);
+	return 0;
+	}
+	}break;
 	
 	default:
 	printf("\n La Opcion No Es La Correcta, Vuelva A Intentar\n");
