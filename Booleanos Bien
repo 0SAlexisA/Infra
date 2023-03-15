@@ -1,28 +1,18 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-
-
-
 void modificacion (bool aUnam, bool carrera, bool grupo){
 
 printf("Bienvenido a tu inscripcion\n");{
 
     	if(aUnam == false && carrera == false && grupo == false){
 			    printf("Wey ni te topo");
-    	            } else 
-	
-		    if(aUnam == true && carrera == false && grupo == false){
+    	            } else if(aUnam == true && carrera == false && grupo == false){
 		        		printf("Pos eres de la UNAM pero quien sabe de donde");
-    	                 } else 
-    	                
-		    	if(aUnam == true && carrera == true && grupo == false){
+    	                 } else if(aUnam == true && carrera == true && grupo == false){
 				           	printf("Eres alumno de la UNAM, en la carrera 308 y per no perteneces al 2296");
-    	                      } else 
-    	                          
-			    	if(aUnam == true && carrera == true && grupo == true)
-					        	printf("Eres un informatico y no tienes vida");}
-    	                     
+    	                      } else if(aUnam == true && carrera == true && grupo == true)
+					        	printf("Eres un informatico y no tienes vida");}              
 }       
 
 int main(){
