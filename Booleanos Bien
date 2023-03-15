@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdbool.h>
+
+    bool aUnam = false;
+	bool carrera = false;
+	bool grupo = true;
+
+int main(){
+
+printf("Bienvenido a tu inscripcion\n");{
+
+    	if(aUnam == false && carrera == false && grupo == false){
+	    	}else{
+			    printf("Wey ni te topo");}
+	
+		    if(aUnam == true && carrera == false && grupo == false){
+		         	}else{
+		        		printf("Pos eres de la UNAM pero quien sabe de donde");}
+	
+		    	if(aUnam == true && carrera == true && grupo == false){
+		    	    	}else{
+				           	printf("Eres alumno de la UNAM, en la carrera 308 y per no perteneces al 2296");}
+	
+			    	if(aUnam == true && carrera == true && grupo == true){
+				        	}else{
+					        	printf("Eres un informatico y no tienes vida");}
+						
+}
+                        return 0;
+					}
