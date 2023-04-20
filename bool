@@ -138,6 +138,53 @@ do{
 		}
 	}while(opcion !=3);
 	
-	return 0;
+	return #include <stdio.h>
 
+// Definición de la estructura de datos
+struct persona {
+    char nombre[50];
+    int edad;
+    float altura;
+};
+
+void guardar_csv(struct persona p[], int n) {
+    // Abrir archivo para escritura
+    FILE* archivo = fopen("personas.csv", "w");
+
+    // Escribir encabezado en archivo
+    fprintf(archivo, "Nombre,Edad,Altura\n");
+
+    // Escribir datos en archivo
+    for (int i = 0; i < n; i++) {
+        fprintf(archivo, "%s,%d,%.2f\n", p[i].nombre, p[i].edad, p[i].altura);
+    }
+
+    // Cerrar archivo
+    fclose(archivo);
 }
+
+int main() {
+    // Crear algunas personas
+    struct persona p[] = {
+        {"Juan", 25, 1.70},
+        {"Maria", 30, 1.60},
+        {"Pedro", 20, 1.80}
+    };
+
+    // Guardar personas en archivo CSV
+    guardar_csv(p, 3);
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
